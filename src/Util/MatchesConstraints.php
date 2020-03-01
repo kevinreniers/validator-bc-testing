@@ -52,7 +52,7 @@ class MatchesConstraints extends Constraint
          * @var $item ConstraintViolationInterface
          */
         foreach ($constraintViolationList as $item) {
-            $message[] = (string) $item;
+            $message[] = (string)$item;
         }
 
         $this->message = "\r\n" . implode("\r\n", $message);

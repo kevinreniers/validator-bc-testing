@@ -5,10 +5,7 @@ namespace App\Tests;
 use App\Util\Tester;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Component\Validator\Constraints\Collection;
-use Symfony\Component\Validator\Constraints\Length;
 use Symfony\Component\Validator\Constraints\NotBlank;
-use Symfony\Component\Validator\Constraints\NotNull;
-use Symfony\Component\Validator\Constraints\Type;
 use function App\Util\assertMatchesConstraints;
 
 class DefaultControllerTest extends WebTestCase
